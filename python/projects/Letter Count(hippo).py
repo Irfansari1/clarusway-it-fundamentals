@@ -15,3 +15,15 @@ for letter in str_1:
 
 cnt = dict(cnt)
 print(cnt)
+
+
+"""
+str_1 = "hippopotamus"
+dict_1 ={}
+
+for i in str_1:
+    a=str_1.count(i)
+    dict_1[i] = a
+    print(a)
+print(dict_1)
+"""
