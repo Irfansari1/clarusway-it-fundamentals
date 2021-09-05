@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Sep  2 20:33:02 2021
+
+@author: admin
+"""
+
+def facto(n):
+    if n==0: return 1
+    else :
+        return n*facto(n-1)
+print(facto(5))
